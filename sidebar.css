@@ -1,0 +1,39 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: white;
+    z-index: 101;
+    padding-top: 5px
+
+}
+
+.oklol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+
+}
+
+.oklol:hover{
+    background-color: rgb(235, 235, 235);
+
+}
+
+.oklol img{
+    height: 24px;
+   
+}
+
+.oklol div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    
+}
